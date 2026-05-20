@@ -13,4 +13,19 @@
 
 <h2>Overview</h2>
 
-Simple yet good looking dotfiles, mainly for personal use
+Simple yet good looking dotfiles, mainly for personal use, including a theme swicther made with rofi and bash scripts
+
+The theme swicther includes the following colorschemes:
+
+- Catppuccin
+- Nordic/Nord
+- Rosé Pine
+- Everforest
+- Tokyo Night
+- Tokyo Night Dark Enhanced
+- Kanagawa
+- Gruvbox
+- Monokai
+- Osaka/Solarized
+- Monochrome
+- Gotham
