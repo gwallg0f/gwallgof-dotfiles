@@ -30,6 +30,8 @@ The theme swicther includes the following colorschemes:
 - Monochrome
 - Gotham
 
+more to be added in the future
+
 <h1>TODO</h1>
 
 - Add pywall/matugen theme
