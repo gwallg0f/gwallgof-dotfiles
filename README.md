@@ -10,3 +10,7 @@
 - Terminal Emulator: Alacritty
 - Bar: Waybar
 - App Launcher/Others: Rofi
+
+<h2>Overview</h2>
+
+Simple yet good looking dotfiles, mainly for personal use
