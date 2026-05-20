@@ -1,0 +1,111 @@
+* {
+  font:   "Iosevka Nerd Font Medium 11";
+
+  bg0     : rgba(0, 0, 0, 1);
+  bg1     : #000000;
+  bg2     : #171717;
+  bg3     : #171717;
+  fg0     : #ffffff;
+  fg1     : #ffffff;
+  fg2     : #ffffff;
+  fg3     : #ffffff;
+  red     : #ffffff;
+  green   : #ffffff;
+  yellow  : #ffffff;
+  blue    : #ffffff;
+  magenta : #ffffff;
+  cyan    : #ffffff;
+
+  accent: @red;
+  urgent: @yellow;
+
+  background-color : transparent;
+  text-color       : @fg0;
+
+  margin  : 0;
+  padding : 0;
+  spacing : 0;
+}
+
+window {
+    location:       center;
+    width:          480;
+    border-radius:  6px;
+    border: 2px;
+    border-color: @fg0;
+    background-color:   @bg0;
+}
+
+mainbox {
+    padding:    12px;
+}
+
+inputbar {
+    background-color:   @bg0;
+    border-color:       @bg3;
+
+    border:         2px;
+    border-radius:  6px;
+
+    padding:    8px 16px;
+    spacing:    8px;
+    children:   [ prompt, entry ];
+}
+
+prompt {
+    text-color: @fg2;
+}
+
+entry {
+    placeholder:        "";
+    placeholder-color:  @fg3;
+    
+}
+
+message {
+    margin:             12px 0 0;
+    border-radius:      6px;
+    border-color:       @bg2;
+    background-color:   @bg2;
+}
+
+textbox {
+    padding:    8px 24px;
+}
+
+listview {
+    background-color:   transparent;
+
+    margin:     12px 0 0;
+    lines:      8;
+    columns:    1;
+
+    fixed-height: false;
+}
+
+element {
+    padding:        8px 16px;
+    spacing:        8px;
+    border-radius:  6px;
+}
+
+element normal active {
+    text-color: @bg3;
+}
+
+element alternate active {
+    text-color: @bg3;
+}
+
+element selected normal, element selected active {
+    background-color:   @bg3;
+}
+
+element-icon {
+    size:           1em;
+    vertical-align: 0.5;
+}
+
+element-text {
+    text-color: inherit;
+}
