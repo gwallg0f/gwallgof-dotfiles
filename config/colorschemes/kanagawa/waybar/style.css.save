@@ -1,0 +1,188 @@
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: RecMonoSMCasual Nerd Font;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 7px;
+    min-height: 0px;
+}
+
+@define-color foreground #c5c9c5;
+@define-color background #0d0c0c;
+
+@define-color yellow #c4b28a;
+@define-color green #8a9a7b;
+@define-color blue #8ba4b0;
+@define-color magenta #a292a3;
+
+window#waybar {
+  background-color: transparent;
+}
+
+#waybar > box {
+/* border: 2px solid #95A3BF;*/
+  margin: 4px 8px 0px 8px;
+  background-color: transparent;
+  border-radius: 0px;
+}
+
+tooltip {
+    background: rgb(30, 30, 46);
+    border-radius: 7px;
+}
+
+button {
+    /* Use box-shadow instead of border so the text isn't offset */
+    box-shadow: inset 0 3px transparent;
+    /* Avoid rounded borders under each button name */
+    border: none;
+    border-radius: 0;
+}
+
+button:hover {
+    background: inherit;
+}
+#workspaces button {
+    border-top:2px solid alpha(@foreground, 0.2);
+    border-bottom:2px solid alpha(@foreground, 0.2);
+    color: alpha(@foreground, 0.4);
+    padding: 1px 4px;
+    background-color: @background
+}
+
+#workspaces button.active {
+  color: @foreground;   
+  transition: all 0.3s ease;
+  padding: 1px 4px;
+  opacity: 1.0;
+}
+
+#workspaces button:first-child {
+   border-left:2px solid alpha(@foreground, 0.2);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding-left: 6px;
+}
+
+#workspaces button:last-child {
+    border-right:2px solid alpha(@foreground, 0.2);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding-right: 6px;
+}
+
+#workspaces button.visible {
+    color: #c4746e;
+}
+
+#workspaces button.focused {
+    color: #a6e3a1;
+
+}
+
+#workspaces button.urgent {
+    color: @foreground;
+    background-color: #45475a;
+}
+
+#custom-launcher
+#mpris
+#clock,
+#cpu,
+#memory,
+#pulseaudio,
+#tray-expander{
+    background: @background;
+}
+
+#window,
+
+#workspaces {
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+#clock {
+    color: @foreground;
+    background-color: @background;
+    padding: 1px 10px 1px 10px;
+    border: 2px solid alpha(@foreground, 0.2);
+}
+
+
+label:focus {
+    background: rgb(30, 30, 46);
+}
+
+#memory {
+    background-color: @green;
+    color: #11111b;
+    padding: 1px 12px 1px 8px
+}
+
+#disk {
+    background-color: @magenta;
+    color: @background;
+    padding: 1px 12px 1px 8px;
+}
+
+#pulseaudio {
+    background-color: @yellow;
+    color: #11111b;
+    padding: 1px 8px 1px 8px;
+}
+
+#pulseaudio.muted {
+    color: @foreground;
+    padding: 1px 8px 1px 8px;
+}
+
+#wireplumber {
+    color: #000000;
+}
+
+#wireplumber.muted {
+    background: rgb(30, 30, 46);
+    padding: 1px 10px 1px 10px;
+    margin-top: 5px;
+}
+
+
+#cpu {
+    background-color: @blue;
+    color: #11111b;
+    padding: 1px 12px 1px 8px;
+}
+
+
+#tray-expander {
+    border:2px solid alpha(@foreground, 0.2);
+    color: @foreground;
+    padding: 1px 8px 1px 12px;    
+}
+
+#mpris {
+    border:2px solid alpha(@foreground, 0.2);
+    color: @foreground;
+    background-color: @background;
+    padding: 1px 10px 1px 10px;
+}
+
+#custom-launcher{
+    border:2px solid alpha(@foreground, 0.2);
+    color: @magenta;
+    background-color: @background;
+    padding: 1px 10px 1px 8px;
+}
+#custom-temperature{
+    color: @magenta;
+    background-color: @background;
+}
+#custom-launcher:hover{
+    border-bottom: 2px solid #88c0d0;
+}
+
