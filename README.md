@@ -71,9 +71,9 @@ Once I imporve how the theme swicher is structured, I'll add the option to disab
 
 <h1>TODO</h1>
 
-[x] Add pywall/matugen theme
-[x] Add hyprlock theme
-[x] Add more wallpapers
-[x] Add SDDM theme
-[x] Improve Rofi theme
-[x] Optimize the theme swicther itself
+- [x] Add pywall/matugen theme
+- [x] Add hyprlock theme
+- [x] Add more wallpapers
+- [x] Add SDDM theme
+- [x] Improve Rofi theme
+- [x] Optimize the theme swicther itself
