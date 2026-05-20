@@ -48,24 +48,24 @@ For the GTK and Icon theme switcher to work, you'll have to install the gtk them
 
 The themes that I used:
 
-https://www.gnome-look.org/s/Gnome/p/1715554 \n
-https://www.gnome-look.org/p/1695467 \n
-https://www.gnome-look.org/p/1681313/ \n
-https://www.gnome-look.org/p/1810560/ \n
-https://bitbucket.org/dirn-typo/yet-another-monochrome-icon-set/src/main/ \n
-https://www.gnome-look.org/p/1695467/ \n
-https://www.gnome-look.org/p/2284009/ \n
-https://github.com/EliverLara/Nordic \n
-https://github.com/avivace/monokai-gtk \n
-https://github.com/EliverLara/Kripton \n
-https://github.com/ljmill/catppuccin-icons \n
-https://github.com/ljmill/tokyo-night-icons \n
-https://store.kde.org/s/KDE%20Store/p/1961046 \n
-https://github.com/Fausto-Korpsvart/Nordzy-icon \n
-https://www.gnome-look.org/p/1681460 \n
-https://www.gnome-look.org/p/1695476 \n
-https://www.gnome-look.org/p/1810565 \n
-https://www.gnome-look.org/p/1810549 \n
+https://www.gnome-look.org/s/Gnome/p/1715554 \
+https://www.gnome-look.org/p/1695467 \
+https://www.gnome-look.org/p/1681313/ \
+https://www.gnome-look.org/p/1810560/ \
+https://bitbucket.org/dirn-typo/yet-another-monochrome-icon-set/src/main/ \
+https://www.gnome-look.org/p/1695467/ \
+https://www.gnome-look.org/p/2284009/ \
+https://github.com/EliverLara/Nordic \
+https://github.com/avivace/monokai-gtk \
+https://github.com/EliverLara/Kripton \
+https://github.com/ljmill/catppuccin-icons \
+https://github.com/ljmill/tokyo-night-icons \
+https://store.kde.org/s/KDE%20Store/p/1961046 \
+https://github.com/Fausto-Korpsvart/Nordzy-icon \
+https://www.gnome-look.org/p/1681460 \
+https://www.gnome-look.org/p/1695476 \
+https://www.gnome-look.org/p/1810565 \
+https://www.gnome-look.org/p/1810549 \
 
 Once I imporve how the theme swicher is structured, I'll add the option to disable GTK/Icon theme swicthing, aswell not having to place the wallpapers folder in that specific directory
 
