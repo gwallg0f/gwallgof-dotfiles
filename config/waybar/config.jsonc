@@ -1,0 +1,130 @@
+{
+       "layer": "top", // Waybar at top layer
+    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 28, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+        "custom/launcher",
+        "hyprland/workspaces",
+        "mpris"
+    ],
+    "modules-center": [
+       	    "clock"
+    ],
+    "modules-right": [
+        "group/tray-expander",
+        "pulseaudio",
+        "memory",
+        "cpu",
+	"disk"
+    ],
+    // Modules configuration
+
+    "hyprland/workspaces": {
+      "disable-scroll": true,
+      "all-outputs": true,
+      "cursor": true,
+      "format": "{icon}",
+      "format-icons": {
+       "default": "",
+       "empty": "",
+       "focused": "",
+       	 "active": ""
+    },
+      "persistent-workspaces": {
+        "*": 5
+      },
+    },
+
+    "group/tray-expander": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 600,
+            "children-class": "tray-group-item"
+    },
+    "modules": [
+        "custom/expand-icon",
+        "tray"
+    ]
+   },
+   "custom/expand-icon": {
+        "format": " ",
+        "tooltip": false
+   },
+   "tray": {
+	"icon-size": 14,
+        "spacing": 4
+   },
+
+
+    "clock": {
+	"format": "{:%A   %H:%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%d-%m-%Y}"
+    },
+    "memory": {
+        "format": "{percentage}% "
+    },
+    "cpu": {
+	"format": "{usage}% "
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon} ",
+        "format-bluetooth-muted": "  {icon} ",
+        "format-muted": " ",
+        "format-source": " {volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", " "]
+        },
+	"on-click": "pavucontrol"
+    },
+    "mpris": {
+       	    "format": "{player_icon} {title}",
+       	    "format-paused": "{status_icon} <i>{title}</i>",
+        "max-length": 50,
+        "ellipsize": true,
+       	    "player-icons": {
+       	        "default": "",
+       	        "mpv": "🎵"
+       	    },
+       	    "status-icons": {
+               	"paused": ""
+       	    },
+       	    // "ignored-players": ["firefox"]
+    },
+    "custom/launcher":{
+        "format": "",
+        "on-click": "rofi -show drun",
+        "on-click-right": "killall rofi",
+        "tooltip": false
+    },
+  "custom/temperature": {
+    "exec": "sensors | awk '/^Package id 0:/ {print int($4)}'",
+    "format": "{}°C ",
+    "interval": 5,
+    "tooltip": true,
+    "tooltip-format": "CPU Temperature: {}°C"
+  },
+
+  "disk": {
+       	"interval": 30,
+       	"format": "{percentage_free}% ",
+       	"unit": "GB"
+  }
+}
+
+
+
+
+
+
