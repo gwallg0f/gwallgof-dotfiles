@@ -65,7 +65,7 @@ https://github.com/Fausto-Korpsvart/Nordzy-icon \
 https://www.gnome-look.org/p/1681460 \
 https://www.gnome-look.org/p/1695476 \
 https://www.gnome-look.org/p/1810565 \
-https://www.gnome-look.org/p/1810549 \
+https://www.gnome-look.org/p/1810549 
 
 Once I imporve how the theme swicher is structured, I'll add the option to disable GTK/Icon theme swicthing, aswell not having to place the wallpapers folder in that specific directory
 
