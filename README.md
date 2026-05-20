@@ -29,3 +29,12 @@ The theme swicther includes the following colorschemes:
 - Osaka/Solarized
 - Monochrome
 - Gotham
+
+<h1>TODO</h1>
+
+- Add pywall/matugen theme
+- Add hyprlock theme
+- Add more wallpapers
+- Add SDDM theme
+- Improve Rofi theme
+- Optimize the theme swicther itself
