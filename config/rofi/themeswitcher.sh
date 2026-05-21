@@ -16,5 +16,5 @@ case "$option" in
     "Osaka") sh /home/gwallgof/.config/colorschemes/solarized/switch-theme.sh;;
     "Monochrome") sh /home/gwallgof/.config/colorschemes/monochrome/switch-theme.sh;;
     "Gotham") sh /home/gwallgof/.config/colorschemes/gotham/switch-theme.sh;;
-    "Pywal") sh /home/gwallgof/.config/colorschemes/pywal/switch-theme.sh;;
+
 esac
