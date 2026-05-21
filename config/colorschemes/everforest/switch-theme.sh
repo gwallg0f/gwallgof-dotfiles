@@ -24,7 +24,7 @@ gsettings set org.gnome.desktop.interface icon-theme 'Everforest-Dark'
 
 #Apply Wallpaper
 
-waypaper --wallpaper /home/gwallgof/Pictures/wallpapers/everforest/mist_forest_1.png
+waypaper --wallpaper /home/$USER/Pictures/wallpapers/everforest/13977432.jpg
 
 exit
 
