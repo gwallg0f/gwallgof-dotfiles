@@ -78,4 +78,4 @@ I've done the changes and now the theme swicther works with a singular dynamic s
 - [ ] Add more wallpapers
 - [ ] Add SDDM theme
 - [ ] Improve Rofi theme
-- [ ] Optimize the theme swicther itself
+- [x] Optimize the theme swicther itself
