@@ -69,7 +69,7 @@ https://www.gnome-look.org/p/1810549
 
 <del>Once I imporve how the theme swicher is structured, I'll add the option to disable GTK/Icon theme swicthing, aswell not having to place the wallpapers folder in that specific directory</del>
 
-I've done the changes and now the theme swicther works with a singular dynamic script.
+I've done the changes and now the theme swicther works with a singular dynamic script. The old scripts are still there for debbugging purposes.
 
 <h1>TODO</h1>
 
