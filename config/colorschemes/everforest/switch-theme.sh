@@ -17,10 +17,6 @@ echo '@import "/home/gwallgof/.config/colorschemes/everforest/rofi/config.rasi"'
 
 sed -i '2c\general.import = [ "/home/gwallgof/.config/colorschemes/everforest/alacritty/everforest.toml" ]' ~/.config/alacritty/alacritty.toml
 
-#Apply Hypr
-
-sed -i '2c\source = ~/.config/colorschemes/everforest/hypr/colors/everforest.conf' /home/gwallgof/.config/hypr/hyprland.conf
-
 #Apply GTK Theme And Icon Theme
 
 gsettings set org.gnome.desktop.interface gtk-theme "Everforest-BL-MB-Dark"
