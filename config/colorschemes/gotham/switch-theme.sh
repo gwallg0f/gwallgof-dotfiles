@@ -24,7 +24,7 @@ gsettings set org.gnome.desktop.interface icon-theme 'YAMIS'
 
 #Apply Wallpaper
 
-waypaper --wallpaper /home/gwallgof/Pictures/wallpapers/gotham/closeup_view_of_big_green_leaves_dark_background_4k_hd_nature-HD-1779852131.jpg
+waypaper --wallpaper /home/$USER/Pictures/wallpapers/gotham/"02. Greenify.jpg"
 
 exit
 
