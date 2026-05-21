@@ -24,6 +24,6 @@ gsettings set org.gnome.desktop.interface icon-theme 'Catppuccin-SE'
 
 #Apply Wallpaper
 
-waypaper --wallpaper /home/gwallgof/Pictures/wallpapers/catppuccin/evening-sky.png
+waypaper --wallpaper /home/$USER/Pictures/wallpapers/catppuccin/evening-sky.png
 
 exit
