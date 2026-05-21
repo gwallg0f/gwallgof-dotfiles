@@ -1,0 +1,29 @@
+sed -i '4c\folder = ~/Pictures/wallpapers/catppuccin/' /home/gwallgof/.config/waypaper/config.ini
+
+#Apply waybar
+
+sed -i '2c\@import url("file:///home/gwallgof/.config/colorschemes/catppuccin/waybar/catppuccin.css");' /home/gwallgof/.config/waybar/style.css
+sed -i '2c\@import url("file:///home/gwallgof/.config/colorschemes/catppuccin/waybar/catppuccin.css");' /home/gwallgof/.config/waybar/waybarmodes/floating/style.css
+sed -i '2c\@import url("file:///home/gwallgof/.config/colorschemes/catppuccin/waybar/catppuccin.css");' /home/gwallgof/.config/waybar/waybarmodes/simple/style.css
+sed -i '2c\@import url("file:///home/gwallgof/.config/colorschemes/catppuccin/waybar/catppuccin.css");' /home/gwallgof/.config/waybar/waybarmode/dock/style.css
+pkill waybar
+waybar &
+
+# Apply rofi
+
+echo '@import "/home/gwallgof/.config/colorschemes/catppuccin/rofi/config.rasi"' > ~/.config/rofi/config.rasi
+
+# Apply Alacritty
+
+sed -i '2c\general.import = [ "/home/gwallgof/.config/colorschemes/catppuccin/alacritty/catppuccin-mocha.toml" ]' ~/.config/alacritty/alacritty.toml
+
+#Apply GTK Theme And Icon Theme
+
+gsettings set org.gnome.desktop.interface gtk-theme "Catppuccin-BL-MB-Dark"
+gsettings set org.gnome.desktop.interface icon-theme 'Catppuccin-SE'
+
+#Apply Wallpaper
+
+waypaper --wallpaper /home/$USER/Pictures/wallpapers/catppuccin/evening-sky.png
+
+exit
