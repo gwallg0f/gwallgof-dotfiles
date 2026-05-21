@@ -1,0 +1,13 @@
+general.import = [
+  "/home/gwallgof/.config/colorschemes/solarized/alacritty/solarized.toml"
+]
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "0xProto Nerd Font"
+style = "Regular"
+
+[window]
+opacity = 0.8
